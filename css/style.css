@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+	--main-bg-color : #2874f0 ;
+	
+}
+*{
+	margin : 0px ;
+	padding : 0px ;
+	
+	
+}
+header{
+	
+	background : var(--main-bg-color);
+	
+}
+nav{
+	display : flex ;
+
+	
+}
+nav ul {
+	display : flex ;
+	justify-content : flex-start ;
+	height : 58px ;
+	align-items : center ;
+	
+	
+	
+}
+
+nav ul li {
+	list-style : none ;
+	padding : 23px ;
+	
+	
+	
+}
+nav ul li a {
+	color : white ;
+	text-decoration : none ;
+	
+	
+}
+nav ul li a:hover {
+	color : white ;
+	font-weight : bold ;
+}
+
+.logo{
+	display : flex ;
+	align-items : center ;
+	
+	
+}
+.logo img {
+	width : 88px ;
+	padding : 0 34px ;
+	
+}
+
+footer{
+	height : 12vh ;
+	background-color : var(--main-bg-color) ;
+	color : white ;
+	font-family : 'lato' , sans-serif ;
+	
+	
+}
+
+.container{
+	min-height : calc(100vh - 58px - 12vh);
+	
+	
+}
+.search{
+	display : flex ;
+	align-items : center ;
+	
+	
+}
+
+.search input {
+	  width: 34vw;
+  height: 25px;
+  border : 2px solid white  ;
+  border-radius : 5px ;
+  margin : 0 24px 0 75px ;
+  padding : 0 12px ;
+  
+}
+
+.search button {
+	font-family : 'lato' sans-serif ;
+	font-weight : 900 ;
+	margin-bottom : 9px ;
+	
+}
+
+.slider{
+	/* wea are set image because we dont have find img related to this so that why 
+	i set a normal img and giviing padding with left and right and we gave a background-color */
+	background-color : #2874f0 ;
+	margin : 12px auto ;
+	width : 80vw ;
+	overflow : hidden ;
+	
+}
+.slider img {
+	/* that why we put a background-colr andpaddin in slider img */
+	
+	
+}
+
+
+.card{
+	/* the orange i is ude to show the background width which we need to development 
+	background-color : orange ;*/
+	max-width : 92vw ;
+	margin : auto ;
+	
+}
+.cards{
+	display : flex ;
+	overflow : hidden ;
+	
+}
+.card h2{
+	font-family : 'lato' sans-serif ;
+	
+	
+	
+}
+
+
+.card-items{
+	
+	display : inline-flex ;
+	justify-content : center ;
+	flex-direction : column ;
+	padding : 0 12px ;
+	
+	
+}
